@@ -1,0 +1,205 @@
+
+.fresh-banner-section {
+    width: 100%;
+    margin-top: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.fresh-banner-link {
+    position: relative;
+    overflow: hidden;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 16px;
+    align-items: center;
+    min-height: 110px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+.fresh-banner-bg-pattern {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: url('https://www.digikala.com/statics/img/svg/typography/freshPattern.svg') left center no-repeat;
+}
+.fresh-banner-bg-gradient {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 16px;
+    background: linear-gradient(267.6deg, rgba(2, 154, 73, .1) 0, rgba(242, 242, 242, 0) 100%);
+    z-index: 2;
+}
+.fresh-banner-bg-gradient-second{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 16px;
+    background-image: (267.6deg,rgba(230,18,61,.1),rgba(242,242,242,0));
+}
+.fresh-banner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.fresh-banner-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.fresh-banner-icon {
+    width: 66px;
+    height: 62px;
+}
+
+.fresh-banner-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.fresh-banner-title {
+    margin: 0 8px;
+    width: 250px;
+    height: 28px;
+}
+
+.fresh-banner-title img {
+    width: 100%;
+    height: auto;
+}
+
+.fresh-banner-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #029a49;
+    padding: 4px 12px;
+    border-radius: 24px;
+    margin: 0 8px;
+}
+
+.fresh-banner-badge p {
+    font-family: var(--font-family);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.fresh-banner-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    width: auto;
+    gap: 12px;
+}
+
+.fresh-products-wrapper {
+    display: flex;
+    overflow: hidden;
+    gap: 8px;
+}
+
+.fresh-product-item {
+    position: relative;
+    background: white;
+    border-radius: 50%;
+    padding: 8px;
+    width: 74px;
+    height: 74px;
+    min-width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fresh-product-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.fresh-product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fresh-product-discount {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    min-width: 34px;
+    width: auto;
+    height: 20px;
+    background: #ef4056;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fresh-more-btn p{
+    font-family: var(--font-family);
+    background: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #029a49;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.17;
+    white-space: nowrap;
+    margin-right: 12px;
+}
+
+.fresh-more-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: #2e7d32;
+}
+.subtitle-under{
+    font-family: var(--font-family);
+    font-size: 12px;
+    margin-right: 20px;
+}
+.plus-timer-second{
+    display:flex;
+    align-items:center;
+    color: white;
+    gap:4px;
+}
+.plus-timer-value{
+    font-family: var(--font-family);
+    color:#424750;
+}

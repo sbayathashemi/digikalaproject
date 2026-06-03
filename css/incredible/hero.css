@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1676px;
+    margin: 50px auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.amazing-hero .amazing-hero-bg {
+    background-image: url('https://www.digikala.com/statics/img/svg/amazing/header.svg'), linear-gradient(to top, #ef4056, #ef394e);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazing-hero .amazing-hero-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+}

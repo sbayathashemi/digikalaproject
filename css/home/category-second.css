@@ -1,0 +1,53 @@
+.category-second{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+    .category-second-center{
+        max-width: 1330px;
+        height: 100%;
+        margin: 0 auto;
+        .swiper {
+            width: 100%;
+            height: 100%;}
+        .CatSecond-title{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+            h2{
+                font-family: var(--font-family);
+            }
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .myCatSecond-cover{
+                width: 100%;
+                height: 100%;
+                .myCatSecond-cover-item{
+                    width: fit-content;
+                    margin: 0 auto;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 25px;
+                    }
+                    h4{
+                        font-family: var(--font-family);
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .swiper-slide img{
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

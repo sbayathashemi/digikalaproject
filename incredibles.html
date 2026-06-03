@@ -1,0 +1,2202 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./FontAwesome.Pro.7.2.0/css/all.css" />
+    <link rel="stylesheet" href="./css/incredible/incrediblepage.css" />
+    <link rel="shortcut icon" href="./images/icon/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div class="header">
+        <div class="header-center">
+          <div class="header-center-center">
+            <div class="header-center-center-right">
+              <div class="header-center-center-right-logo">
+                <a href="./home.html"><img src="./images/header/logo.svg" alt=""/></a>
+              </div>
+              <div class="header-center-center-right-search">
+                <i class="fa-duotone fa-solid fa-magnifying-glass magnifying"></i>
+                <input class="searchbox" type="text" name="" placeholder="جستجو"/>
+              </div>
+            </div>
+            <div class="header-center-center-left">
+                <i class="fa-duotone fa-solid fa-bell"></i>
+              <a href="#">
+                <img src="./images/header/arrow.svg" alt="" />
+                ورود
+                <span></span>
+                ثبت نام
+              </a>
+              <div></div>
+              <img src="./images/header/basket.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="header-bottom-center">
+            <div class="header-bottom-center-right">
+              <div class="hbcr-nav-item menu-container">
+                  <a href="#" class="hbcr-nav-link menu-trigger">
+                      <i class="fa-duotone fa-solid fa-line-columns"></i> دسته بندی کالاها
+                  </a>
+                  <div class="mega-menu">
+                      <div class="mega-menu-content">
+                          <div class="categories-list">
+                              <div class="category-main" data-cat="mobile">
+                                  <a href="#">موبایل</a>
+                                  <i class="fas fa-chevron-left"></i>
+                              </div>
+                              <div class="category-main" data-cat="digital">
+                                  <a href="#">کالای دیجیتال</a>
+                                  <i class="fas fa-chevron-left"></i>
+                              </div>
+                              <div class="category-main" data-cat="laptop">
+                                  <a href="#">لپ تاپ و اداری</a>
+                                  <i class="fas fa-chevron-left"></i>
+                              </div>
+                              <div class="category-main" data-cat="home">
+                                  <a href="#">خانه و آشپزخانه</a>
+                                  <i class="fas fa-chevron-left"></i>
+                              </div>
+                              <div class="category-main" data-cat="beauty">
+                                  <a href="#">زیبایی و سلامت</a>
+                                  <i class="fas fa-chevron-left"></i>
+                              </div>
+                              <div class="category-main" data-cat="sport">
+                                  <a href="#">ورزش و سفر</a>
+                                  <i class="fas fa-chevron-left"></i>
+                              </div>
+                              <div class="category-main" data-cat="game">
+                                  <a href="#">بازی و سرگرمی</a>
+                                  <i class="fas fa-chevron-left"></i>
+                              </div>
+                          </div>
+
+                          <!-- سمت چپ: زیرمجموعه ها (پیش فرض موبایل) -->
+                          <div class="subcategories-list">
+                              <!-- زیرمجموعه موبایل -->
+                              <div class="subcategory-group active" id="sub-mobile">
+                                  <div class="subcategory-column">
+                                      <h4>برندهای موبایل</h4>
+                                      <a href="#">سامسونگ</a>
+                                      <a href="#">شیائومی</a>
+                                      <a href="#">اپل</a>
+                                      <a href="#">نوکیا</a>
+                                      <a href="#">هوآوی</a>
+                                      <a href="#">وان‌پلاس</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>لوازم جانبی موبایل</h4>
+                                      <a href="#">قاب و کاور</a>
+                                      <a href="#">محافظ صفحه</a>
+                                      <a href="#">پاوربانک</a>
+                                      <a href="#">هدفون و هدست</a>
+                                      <a href="#">کابل و شارژر</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>گوشی هوشمند</h4>
+                                      <a href="#">گوشی اقتصادی</a>
+                                      <a href="#">گوشی میان‌رده</a>
+                                      <a href="#">گوشی رده بالا</a>
+                                      <a href="#">گوشی تاشو</a>
+                                  </div>
+                              </div>
+
+                              <!-- زیرمجموعه کالای دیجیتال -->
+                              <div class="subcategory-group" id="sub-digital">
+                                  <div class="subcategory-column">
+                                      <h4>لوازم جانبی دیجیتال</h4>
+                                      <a href="#">هدفون و هدست</a>
+                                      <a href="#">اسپیکر و بلندگو</a>
+                                      <a href="#">فلش مموری</a>
+                                      <a href="#">هارد اکسترنال</a>
+                                      <a href="#">کیس و کاور</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>ساعت هوشمند و مچ بند</h4>
+                                      <a href="#">ساعت هوشمند</a>
+                                      <a href="#">مچ بند ورزشی</a>
+                                      <a href="#">بند ساعت</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>دوربین و فیلمبرداری</h4>
+                                      <a href="#">دوربین دیجیتال</a>
+                                      <a href="#">لنز دوربین</a>
+                                      <a href="#">سه پایه</a>
+                                      <a href="#">دوربین مداربسته</a>
+                                  </div>
+                              </div>
+
+                              <!-- زیرمجموعه لپ تاپ -->
+                              <div class="subcategory-group" id="sub-laptop">
+                                  <div class="subcategory-column">
+                                      <h4>برندهای لپ تاپ</h4>
+                                      <a href="#">ایسوس</a>
+                                      <a href="#">لنوو</a>
+                                      <a href="#">دل</a>
+                                      <a href="#">اچ پی</a>
+                                      <a href="#">ایسر</a>
+                                      <a href="#">مک بوک</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>لوازم جانبی لپ تاپ</h4>
+                                      <a href="#">کول پد</a>
+                                      <a href="#">کیس و کاور</a>
+                                      <a href="#">شارژر لپ تاپ</a>
+                                      <a href="#">موس و کیبورد</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>قطعات کامپیوتر</h4>
+                                      <a href="#">رم</a>
+                                      <a href="#">حافظه SSD</a>
+                                      <a href="#">کارت گرافیک</a>
+                                      <a href="#">مادربرد</a>
+                                  </div>
+                              </div>
+
+                              <!-- زیرمجموعه خانه و آشپزخانه -->
+                              <div class="subcategory-group" id="sub-home">
+                                  <div class="subcategory-column">
+                                      <h4>لوازم آشپزخانه</h4>
+                                      <a href="#">یخچال و فریزر</a>
+                                      <a href="#">ماشین لباسشویی</a>
+                                      <a href="#">مایکروویو</a>
+                                      <a href="#">چای ساز و قهوه ساز</a>
+                                      <a href="#">مخلوط کن و غذاساز</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>لوازم خانگی</h4>
+                                      <a href="#">جاروبرقی</a>
+                                      <a href="#">اتو و بخارشوی</a>
+                                      <a href="#">پنکه و کولر</a>
+                                      <a href="#">سشوار و بابلیس</a>
+                                  </div>
+                              </div>
+
+                              <!-- زیرمجموعه زیبایی و سلامت -->
+                              <div class="subcategory-group" id="sub-beauty">
+                                  <div class="subcategory-column">
+                                      <h4>آرایشی و بهداشتی</h4>
+                                      <a href="#">لوازم آرایش صورت</a>
+                                      <a href="#">لوازم آرایش چشم</a>
+                                      <a href="#">عطر و ادکلن</a>
+                                      <a href="#">مراقبت از پوست</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>سلامت و تجهیزات پزشکی</h4>
+                                      <a href="#">ماسک و دستکش</a>
+                                      <a href="#">تب سنج</a>
+                                      <a href="#">فشارسنج</a>
+                                      <a href="#">ویلچر و عصا</a>
+                                  </div>
+                              </div>
+
+                              <!-- زیرمجموعه ورزش و سفر -->
+                              <div class="subcategory-group" id="sub-sport">
+                                  <div class="subcategory-column">
+                                      <h4>لوازم ورزشی</h4>
+                                      <a href="#">لباس ورزشی</a>
+                                      <a href="#">کفش ورزشی</a>
+                                      <a href="#">تجهیزات بدنسازی</a>
+                                      <a href="#">لوازم کوهنوردی</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>سفر و کمپینگ</h4>
+                                      <a href="#">چمدان و ساک</a>
+                                      <a href="#">کوله پشتی</a>
+                                      <a href="#">کیف دوربین</a>
+                                  </div>
+                              </div>
+
+                              <!-- زیرمجموعه بازی و سرگرمی -->
+                              <div class="subcategory-group" id="sub-game">
+                                  <div class="subcategory-column">
+                                      <h4>کنسول و بازی</h4>
+                                      <a href="#">پلی استیشن</a>
+                                      <a href="#">ایکس باکس</a>
+                                      <a href="#">نینتندو</a>
+                                      <a href="#">بازی های کامپیوتری</a>
+                                  </div>
+                                  <div class="subcategory-column">
+                                      <h4>لوازم جانبی گیمینگ</h4>
+                                      <a href="#">هدفون گیمینگ</a>
+                                      <a href="#">موس و کیبورد گیمینگ</a>
+                                      <a href="#">صندلی گیمینگ</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="hbcr-nav-item">
+                    <a href="./incredibles.html" class="hbcr-nav-link">
+                        <i class="fa-duotone fa-solid fa-droplet-percent"></i> شگفت انگیزها
+                    </a>
+                </div>
+                <div class="hbcr-nav-item">
+                    <a href="#" class="hbcr-nav-link">
+                        <i class="fa-duotone fa-solid fa-basket-shopping-simple"></i> سوپر مارکت
+                    </a>
+                </div>
+                <div class="hbcr-nav-item">
+                    <a href="#" class="hbcr-nav-link">
+                        <i class="fa-duotone fa-light fa-coin-blank"></i> طلای دیجیتال
+                    </a>
+                </div>
+                <div class="hbcr-nav-item">
+                    <a href="#" class="hbcr-nav-link">
+                        <i class="fa-duotone fa-solid fa-fire-alt"></i> پرفروشترین ها
+                    </a>
+                </div>
+                <div class="hbcr-nav-item">
+                    <a href="#" class="hbcr-nav-link">سوالی دارید؟</a>
+                </div>
+                <div class="hbcr-nav-item">
+                    <a href="#" class="hbcr-nav-link">در دیجی کالا بفروشید!</a>
+                </div>
+            </div>
+            <div class="header-bottom-center-left">
+                <i class="fa-duotone fa-light fa-location-dot"></i> انتخاب آدرس
+            </div>
+         </div>
+        </div>
+    </div>
+
+    <main class="container">
+      <div class="amazing-hero">
+          <div class="amazing-hero-bg"></div>
+          <div>
+            <img src="./images/incredible page/web.webp" class="amazing-hero-img" alt="">
+          </div>
+      </div>
+      <div class="amazing">
+      </div>
+      <div class="swiper category">
+        <div class="swiper-wrapper">
+                <div class="swiper-slide daste">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/ca295514617381312953d0dd1176a4e6.png" alt="">
+                    <h4>همه دسته بندی ها</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image1.png" alt="">
+                      <h4>موبایل</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/image10.png" alt="">
+                      <h4>سلامت و پزشکی</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image2.png" alt="">
+                      <h4>لپ تاپ</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image11.png" alt="">
+                      <h4>ابزارآلات و تجهیزات</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image3.png" alt="">
+                      <h4>کالای دیجیتال</h4> 
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image12.png" alt="">
+                      <h4>کتاب و هنر</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image4.png" alt="">
+                      <h4>خانه و آشپزخانه</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/image13.png" alt="">
+                      <h4>ورزش و سفر</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image5.png" alt="">
+                      <h4>لوازم خانگی برقی</h4>
+                      
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/image14.png" alt="">
+                      <h4>کارت هدیه و گیفت کارت</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image6.png" alt="">
+                      <h4>آرایشی بهداشتی</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/image15.png" alt="">
+                      <h4>سوپرمارکت آنلاین</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image7.png" alt="">
+                      <h4>مد و پوشاک</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/image16.png" alt="">
+                      <h4>اسباب بازی کودک و نوزاد</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image8.png" alt="">
+                      <h4>طلا و نقره</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/image17.png" alt="">
+                      <h4>محصولات بومی و محلی</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="myCatSecond-cover-item">
+                      <img src="./images/category-second/image9.png" alt="">
+                      <h4>خودرو و موتور سیکلت</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="myCatSecond-cover-item">
+                    <img src="./images/category-second/image18.png" alt="">
+                      <h4>پت شاپ</h4>
+                  </div>
+                </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="amazing-ending-section">
+        <div class="ending-header">
+          <div class="ending-title">
+            <img src="./images/incredible page/runout.svg" alt="">
+            <h3>شگفت انگیزهای رو به اتمام</h3>
+          </div>
+          <div class="ending-red-line"></div>
+        </div>
+          <div class="ending-carousel swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+                  <a href="#" class="ending-product-link">
+                    <div class="ending-discount-banner">
+                      <img src="./images/incredible page/inc.svg" alt="">
+                    </div>
+                    <div class="ending-product-image">
+                      <img src="./images/incredible page/rn1.png" alt="">
+                    </div>
+                    <h3 class="ending-product-title">هدفون بلوتوثی انکر مدل SoundCore R50i A3949 با نویز کنسلینگ میکروفون، درگاه شارژ USB Type-C، دارای فناوری AI-Enhanced Calls برای کاهش نویز و بهبود مکالمات، مقاوم در برابر رطوبت و عرق</h3>
+                    <div class="ending-price-section">
+                      <div class="ending-price-row">
+                        <span class="ending-discount-percent">۴٪</span>
+                        <span class="ending-current-price">
+                          ۱,۱۸۳,۶۳۰
+                          <img src="./images/icon/svgexport-15.svg" alt="">
+                        </span>
+                      </div>
+                      <div class="ending-old-price">۴,۷۷۴,۶۲۰</div>
+                    </div>
+                    <div class="ending-progress-section">
+                      <div class="ending-progress-bar">
+                        <div class="ending-progress-fill" style="width:94%"></div>
+                      </div>
+                      <div class="ending-progress-stats">
+                        <span class="ending-sold-percent">۹۴% فروش رفته</span>
+                        <span class="ending-timer">۵۳ : ۱۵ : ۱۱</span>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+                  <a href="#" class="ending-product-link">
+                  <div class="ending-discount-banner">
+                    <img src="./images/incredible page/inc.svg" alt="">
+                  </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn2.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">کرم روشن کننده و ضد لک صورت آرت وینا مدل ویتامین C مناسب انواع پوست حجم 50 میلی لیتر</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۱٪</span>
+                    <span class="ending-current-price">
+                      ۱,۶۵۵,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱۴,۷۷۴,۶۲۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:83%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۸۳% فروش رفته</span>
+                    <span class="ending-timer">۱۴ : ۵۳ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+                  <a href="#" class="ending-product-link">
+                    <div class="ending-discount-banner">
+                      <img src="./images/incredible page/inc.svg" alt="">
+                    </div>
+                    <div class="ending-product-image">
+                      <img src="./images/incredible page/rn3.webp" alt="">
+                    </div>
+                    <h3 class="ending-product-title">سکه گرمی طلا 18 عیار ماربر مدل 1404-0.5G</h3>
+                    <div class="ending-price-section">
+                      <div class="ending-price-row">
+                        <span class="ending-discount-percent">۹٪</span>
+                        <span class="ending-current-price">
+                          ۹,۹۲۸,۵۷۰
+                          <img src="./images/icon/svgexport-15.svg" alt="">
+                        </span>
+                      </div>
+                      <div class="ending-old-price">۱۰,۹۶۱,۱۱۰</div>
+                    </div>
+                    <div class="ending-progress-section">
+                      <div class="ending-progress-bar">
+                        <div class="ending-progress-fill" style="width:70%"></div>
+                      </div>
+                      <div class="ending-progress-stats">
+                        <span class="ending-sold-percent">۷۰% فروش رفته</span>
+                        <span class="ending-timer">۱۴ : ۵۱ : ۰۸</span>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn4.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">دستگاه جوش 250 آمپر ادون مدل TB-250</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۱۱٪</span>
+                    <span class="ending-current-price">
+                      ۴,۹۹۹,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۵,۵۹۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:54%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۵۴% فروش رفته</span>
+                    <span class="ending-timer">۱۳ : ۳۱ : ۰۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn5.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">گوشی موبایل ریلمی مدل Plus 12 ظرفیت 512 گیگابایت و رم 12 گیگابایت</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳٪</span>
+                    <span class="ending-current-price">
+                      ۵۱,۹۹۹,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۵۳,۴۶۹,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:40%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۴۰% فروش رفته</span>
+                    <span class="ending-timer">۱۸ : ۱۱ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn11.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">پایه نگهدارنده گوشی موبایل و تبلت هیسکا مدل HK-2014</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳۲٪</span>
+                    <span class="ending-current-price">
+                      ۹۴۹,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱,۳۸۹,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:35%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۳۵% فروش رفته</span>
+                    <span class="ending-timer">۱۸ : ۱۱ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn6.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">ادوپرفیوم زنانه هارلینگن مدل لالیک لامور حجم 30 میلی‌لیتر با رایحه معتدل مرکبات و گل، ماندگاری و پخش بوی متوسط، مناسب استفاده روزمره و مهمانی</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳٪</span>
+                    <span class="ending-current-price">
+                      ۴۵۷,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱,۵۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:87%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۸۷% فروش رفته</span>
+                    <span class="ending-timer">۱۰ : ۴۱ : ۲۷</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn7.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">زعفران شکسته و نرمه  قائنات - 1 مثقال</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳٪</span>
+                    <span class="ending-current-price">
+                      ۴۶۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۸۹۵,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:42%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۴۲% فروش رفته</span>
+                    <span class="ending-timer">۱۴ : ۴۳ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn10.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">ست تاپ و شلوارک راحتی زنانه مدل 0403129 طرح پروانه 1</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۴۴٪</span>
+                    <span class="ending-current-price">
+                      ۱,۱۰۰,۴۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱,۹۶۵,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:35%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۳۵% فروش رفته</span>
+                    <span class="ending-timer">۱۳ : ۵۶ : ۱۴</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn8.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">چراغ خورشیدی لکسون مدل پروژکتوری شارژی</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۶۹٪</span>
+                    <span class="ending-current-price">
+                      ۱,۴۹۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۴,۸۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:38%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۳۸% فروش رفته</span>
+                    <span class="ending-timer">۱۴ : ۲۲ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn9.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">گوشواره  عصایی طلا 18 عیار زنانه با طرح ورساچه طلا و جواهر ویانا مدل پلنگ</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۱۰٪</span>
+                    <span class="ending-current-price">
+                      ۱۱,۸۵۱,۵۵۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱۳,۱۶۸,۴۲۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:36%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۳۶% فروش رفته</span>
+                    <span class="ending-timer">۱۲ : ۴۳ : ۴۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn12.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">دستگاه شست‌وشوی دهان و دندان شارژی مدل Portable12 به همراه 4 سری</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۰٪</span>
+                    <span class="ending-current-price">
+                      ۱,۴۹۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۴,۹۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:20%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۲۰% فروش رفته</span>
+                    <span class="ending-timer">۱ : ۰۵ : ۴۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn13.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">مو زن گوش و بینی کمینگدون مدل 007</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۵٪</span>
+                    <span class="ending-current-price">
+                      ۹۹۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۳,۹۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:80%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۸۰% فروش رفته</span>
+                    <span class="ending-timer">۱ : ۰۰ : ۰۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn14.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">شارژر دیواری 45 وات وونک مدل PD‑45W به همراه کابل USB-C</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۲٪</span>
+                    <span class="ending-current-price">
+                      ۱,۹۹۹,۹۹۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۷,۲۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:51%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۵۱% فروش رفته</span>
+                    <span class="ending-timer">۰ : ۵۸ : ۰۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn15.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">آویز گردنبند طلا 18 عیار زنانه میو گلد طرح دم نهنگ کدN3286</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۵٪</span>
+                    <span class="ending-current-price">
+                      ۳,۹۶۹,۶۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۴,۷۱۳,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:43%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۴۳% فروش رفته</span>
+                    <span class="ending-timer">۱۲ : ۵۸ : ۵۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/inc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn16.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">جوراب ساق بلند مردانه سیرداش مدل ساده 111 بسته 6 عددی</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۶۶٪</span>
+                    <span class="ending-current-price">
+                      ۹۱۴,۰۰۰
+                      <img src="./images/icon/svgexport-16.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۲,۶۸۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-bar">
+                    <div class="ending-progress-fill" style="width:33%"></div>
+                  </div>
+                  <div class="ending-progress-stats">
+                    <span class="ending-sold-percent">۳۳% فروش رفته</span>
+                    <span class="ending-timer">۱۲ : ۱۷ : ۴۵</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>   
+      </div>
+      <div class="fresh-banner-section">
+        <div class="fresh-banner-link">
+          <div class="fresh-banner-bg-pattern"></div>
+          <div class="fresh-banner-bg-gradient"></div>
+          <div class="fresh-banner-content">
+            <div class="fresh-banner-left">
+              <div class="fresh-banner-icon">
+                <img src="./images/image-category/basket.png" alt="" width="66" height="62">
+              </div>
+              <div class="fresh-banner-title">
+                <img src="./images/image-category/offer.png" alt="" width="250" height="28">
+              </div>
+              <div class="fresh-banner-badge">
+                <p>تا ۶۸٪ تخفیف</p>
+              </div>
+            </div>
+            <div class="fresh-banner-products">
+              <div class="fresh-products-wrapper">
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs1.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۸٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs2.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۲٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs3.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۲٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs4.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۰٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs5.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۱٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs6.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۵۷٪</div>
+                </a>
+              </div>
+              <div class="fresh-more-btn">
+                <p>بیش از ۲۰۰ کالا</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="plus-banner-section">
+        <div class="plus-banner-wrapper">
+          <div class="plus-banner-content">
+            <div class="plus-logo">
+              <img src="./images/incredible page/plus.svg" alt="">
+            </div>
+            <div class="plus-timer-section">
+              <div class="plus-title-desktop">
+                <a class="plus-star">⭐</a>
+                <span class="plus-title">ویژه اعضای پلاس</span>
+              </div>
+              <div class="plus-timer">
+                <div class="plus-timer-box">
+                    <span class="plus-timer-value">۳۴</span>
+                </div>
+                <span class="plus-colon">:</span>
+                <div class="plus-timer-box">
+                    <span class="plus-timer-value">۳۱</span>
+                </div>
+                <span class="plus-colon">:</span>
+                <div class="plus-timer-box">
+                    <span class="plus-timer-value">۰۷</span>
+                </div>
+                <div class="plus-remaining">
+                  مانده تا شروع
+                  <span class="plus-info">i</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="amazing-ending-section">
+        <div class="ending-header">
+          <div class="ending-title">
+            <img src="./images/incredible page/special.svg" alt="">
+            <h3>شگفت انگیز سفارشی</h3>
+          </div>
+          <div class="ending-red-line"></div>
+        </div>
+          <div class="ending-carousel swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+                  <a href="#" class="ending-product-link">
+                    <div class="ending-discount-banner">
+                      <img src="./images/incredible page/spc.svg" alt="">
+                    </div>
+                    <div class="ending-product-image">
+                      <img src="./images/incredible page/rn1.png" alt="">
+                    </div>
+                    <h3 class="ending-product-title">هدفون بلوتوثی انکر مدل SoundCore R50i A3949 با نویز کنسلینگ میکروفون، درگاه شارژ USB Type-C، دارای فناوری AI-Enhanced Calls برای کاهش نویز و بهبود مکالمات، مقاوم در برابر رطوبت و عرق</h3>
+                    <div class="ending-price-section">
+                      <div class="ending-price-row">
+                        <span class="ending-discount-percent">۴٪</span>
+                        <span class="ending-current-price">
+                          ۱,۱۸۳,۶۳۰
+                          <img src="./images/icon/svgexport-15.svg" alt="">
+                        </span>
+                      </div>
+                      <div class="ending-old-price">۴,۷۷۴,۶۲۰</div>
+                    </div>
+                    <div class="ending-progress-section">
+                      <div class="ending-progress-stats">
+                        <span></span>
+                        <span class="ending-timer-spc">۵۳ : ۱۵ : ۱۱</span>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+                  <a href="#" class="ending-product-link">
+                  <div class="ending-discount-banner">
+                    <img src="./images/incredible page/spc.svg" alt="">
+                  </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn2.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">کرم روشن کننده و ضد لک صورت آرت وینا مدل ویتامین C مناسب انواع پوست حجم 50 میلی لیتر</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۱٪</span>
+                    <span class="ending-current-price">
+                      ۱,۶۵۵,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱۴,۷۷۴,۶۲۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۴ : ۵۳ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+                  <a href="#" class="ending-product-link">
+                    <div class="ending-discount-banner">
+                      <img src="./images/incredible page/spc.svg" alt="">
+                    </div>
+                    <div class="ending-product-image">
+                      <img src="./images/incredible page/rn3.webp" alt="">
+                    </div>
+                    <h3 class="ending-product-title">سکه گرمی طلا 18 عیار ماربر مدل 1404-0.5G</h3>
+                    <div class="ending-price-section">
+                      <div class="ending-price-row">
+                        <span class="ending-discount-percent">۹٪</span>
+                        <span class="ending-current-price">
+                          ۹,۹۲۸,۵۷۰
+                          <img src="./images/icon/svgexport-15.svg" alt="">
+                        </span>
+                      </div>
+                      <div class="ending-old-price">۱۰,۹۶۱,۱۱۰</div>
+                    </div>
+                    <div class="ending-progress-section">
+                      <div class="ending-progress-stats">
+                        <span></span>
+                        <span class="ending-timer-spc">۱۴ : ۵۱ : ۰۸</span>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn4.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">دستگاه جوش 250 آمپر ادون مدل TB-250</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۱۱٪</span>
+                    <span class="ending-current-price">
+                      ۴,۹۹۹,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۵,۵۹۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۳ : ۳۱ : ۰۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn5.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">گوشی موبایل ریلمی مدل Plus 12 ظرفیت 512 گیگابایت و رم 12 گیگابایت</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳٪</span>
+                    <span class="ending-current-price">
+                      ۵۱,۹۹۹,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۵۳,۴۶۹,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۸ : ۱۱ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn11.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">پایه نگهدارنده گوشی موبایل و تبلت هیسکا مدل HK-2014</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳۲٪</span>
+                    <span class="ending-current-price">
+                      ۹۴۹,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱,۳۸۹,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۸ : ۱۱ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn6.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">ادوپرفیوم زنانه هارلینگن مدل لالیک لامور حجم 30 میلی‌لیتر با رایحه معتدل مرکبات و گل، ماندگاری و پخش بوی متوسط، مناسب استفاده روزمره و مهمانی</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳٪</span>
+                    <span class="ending-current-price">
+                      ۴۵۷,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱,۵۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۰ : ۴۱ : ۲۷</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn7.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">زعفران شکسته و نرمه  قائنات - 1 مثقال</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۳٪</span>
+                    <span class="ending-current-price">
+                      ۴۶۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۸۹۵,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۴ : ۴۳ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn10.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">ست تاپ و شلوارک راحتی زنانه مدل 0403129 طرح پروانه 1</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۴۴٪</span>
+                    <span class="ending-current-price">
+                      ۱,۱۰۰,۴۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱,۹۶۵,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۳ : ۵۶ : ۱۴</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn8.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">چراغ خورشیدی لکسون مدل پروژکتوری شارژی</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۶۹٪</span>
+                    <span class="ending-current-price">
+                      ۱,۴۹۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۴,۸۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۴ : ۲۲ : ۲۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn9.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">گوشواره  عصایی طلا 18 عیار زنانه با طرح ورساچه طلا و جواهر ویانا مدل پلنگ</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۱۰٪</span>
+                    <span class="ending-current-price">
+                      ۱۱,۸۵۱,۵۵۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۱۳,۱۶۸,۴۲۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۲ : ۴۳ : ۴۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn12.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">دستگاه شست‌وشوی دهان و دندان شارژی مدل Portable12 به همراه 4 سری</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۰٪</span>
+                    <span class="ending-current-price">
+                      ۱,۴۹۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۴,۹۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱ : ۰۵ : ۴۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn13.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">مو زن گوش و بینی کمینگدون مدل 007</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۵٪</span>
+                    <span class="ending-current-price">
+                      ۹۹۰,۰۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۳,۹۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱ : ۰۰ : ۰۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn14.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">شارژر دیواری 45 وات وونک مدل PD‑45W به همراه کابل USB-C</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۷۲٪</span>
+                    <span class="ending-current-price">
+                      ۱,۹۹۹,۹۹۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۷,۲۰۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۰ : ۵۸ : ۰۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn15.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">آویز گردنبند طلا 18 عیار زنانه میو گلد طرح دم نهنگ کدN3286</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۵٪</span>
+                    <span class="ending-current-price">
+                      ۳,۹۶۹,۶۰۰
+                      <img src="./images/icon/svgexport-15.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۴,۷۱۳,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۲ : ۵۸ : ۵۰</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="ending-product-card">
+              <a href="#" class="ending-product-link">
+                <div class="ending-discount-banner">
+                  <img src="./images/incredible page/spc.svg" alt="">
+                </div>
+                <div class="ending-product-image">
+                  <img src="./images/incredible page/rn16.webp" alt="">
+                </div>
+                <h3 class="ending-product-title">جوراب ساق بلند مردانه سیرداش مدل ساده 111 بسته 6 عددی</h3>
+                <div class="ending-price-section">
+                  <div class="ending-price-row">
+                    <span class="ending-discount-percent">۶۶٪</span>
+                    <span class="ending-current-price">
+                      ۹۱۴,۰۰۰
+                      <img src="./images/icon/svgexport-16.svg" alt="">
+                    </span>
+                  </div>
+                  <div class="ending-old-price">۲,۶۸۰,۰۰۰</div>
+                </div>
+                <div class="ending-progress-section">
+                  <div class="ending-progress-stats">
+                    <span></span>
+                    <span class="ending-timer-spc">۱۲ : ۱۷ : ۴۵</span>
+                  </div>
+                </div>
+              </a>
+          </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>   
+      </div>
+      <div class="fresh-banner-section">
+        <div class="fresh-banner-link">
+          <div class="fresh-banner-bg-pattern" style="background: url(&quot;/statics/img/svg/typography/incrediblePattern.svg&quot;) left center no-repeat;"></div>
+          <div class="fresh-banner-bg-gradient-second"></div>
+          <div class="fresh-banner-content">
+            <div class="fresh-banner-left">
+              <div class="fresh-banner-title-second">
+                <img src="./images/incredible page/tom.svg" alt="" width="250" height="28">
+                <div class="subtitle-under">
+                  <h4>تخفیف های فردا رو از دست نده!</h4>
+                </div>
+              </div>
+              <div class="plus-timer-second">
+                <div class="plus-timer-box">
+                    <span class="plus-timer-value">۳۴</span>
+                </div>
+                <span class="plus-colon">:</span>
+                <div class="plus-timer-box">
+                    <span class="plus-timer-value">۳۱</span>
+                </div>
+                <span class="plus-colon">:</span>
+                <div class="plus-timer-box">
+                    <span class="plus-timer-value">۰۷</span>
+                </div>
+              </div>
+            </div>
+            <div class="fresh-banner-products">
+              <div class="fresh-products-wrapper">
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs1.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۸٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs2.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۲٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs3.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۲٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs4.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۰٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs5.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۶۱٪</div>
+                </a>
+                <a href="#" class="fresh-product-item">
+                  <div class="fresh-product-img">
+                    <img src="./images/incredible page/bs6.jpg" alt="">
+                  </div>
+                  <div class="fresh-product-discount">۵۷٪</div>
+                </a>
+              </div>
+              <div class="fresh-more-btn">
+                <p>بیش از ۲۰۰ کالا</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar-head">
+        <p>همه شگفت‌انگیز‌ها</p>
+      </div>
+      <div class="desktop-layout">
+        <aside class="filter-sidebar">
+            <div class="filter-header">
+                <h3>فیلترها</h3>
+            </div>
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">برند</span>
+                    <img src="./images/incredible page/down.svg" alt="">
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">محدوده قیمت</span>
+                    <img src="./images/incredible page/down.svg" alt="">
+                </div>
+            </div>
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">رنگ</span>
+                    <img src="./images/incredible page/down.svg" alt="">
+                </div>
+            </div>
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">نوع فروشنده</span>
+                    <img src="./images/incredible page/down.svg" alt="">
+                </div>
+            </div>
+            <div class="filter-section">
+              <div class="filter-section-box">
+                  <div class="seller-filter-info">
+                      <span class="filter-section-name">
+                          ارسال فروشنده
+                          <img src="./images/incredible page/seller.svg" alt="">
+                      </span>
+                      <h5>ارسال مستقیم و سریع‌تر</h5>
+                  </div>
+                  <label class="switchbtn">
+                      <input type="checkbox">
+                      <span class="sliderbtn"></span>
+                  </label>
+              </div>
+          </div>
+
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">فقط کالاهای موجود در انبار دیجی کالا</span>
+                    <label class="switchbtn">
+                        <input type="checkbox">
+                        <span class="sliderbtn"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">فقط کالاهای موجود</span>
+                    <label class="switchbtn">
+                        <input type="checkbox">
+                        <span class="sliderbtn"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">فقط سوپرمارکتی <img src="./images/incredible page/super.svg" alt=""></span>
+                    <label class="switchbtn">
+                        <input type="checkbox">
+                        <span class="sliderbtn"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="filter-section">
+                <div class="filter-section-box">
+                    <span class="filter-section-name">خرید حضوری در تهران</span>
+                    <label class="switchbtn">
+                        <input type="checkbox">
+                        <span class="sliderbtn"></span>
+                    </label>
+                </div>
+            </div>
+
+        </aside>
+        <section class="toolbar-contact">
+            <div class="sort-toolbar">
+                <div class="sort-right">
+                    <svg width="24" height="24">
+                        <use xlink:href="#sort"></use>
+                    </svg>
+                    <span class="sort-title">
+                        مرتب سازی:
+                    </span>
+                    <button class="active">
+                        پربازدیدترین
+                    </button>
+                    <button>
+                        جدیدترین
+                    </button>
+                    <button>
+                        پرفروش‌ترین
+                    </button>
+                    <button>
+                        ارزان‌ترین
+                    </button>
+                    <button>
+                        گران‌ترین
+                    </button>
+                </div>
+                <div class="result-count">
+                    ۱,۰۲۳ کالا
+                </div>
+            </div>
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="discount-banner">
+                        <img src="./images/incredible.svg" alt="">
+                    </div>
+                    <div class="product-image">
+                        <img src="./images/incredible page/s1.jpg" alt="">
+                    </div>
+                    <div class="product-title">
+                        گوشی موبایل سامسونگ گلکسی S25 Ultra
+                    </div>
+                    <div class="seller-info">
+                        <span>دیجی‌کالا</span>
+                    </div>
+                    <div class="product-box-info">
+                        <span class="rate">
+                            ★ 4.8
+                        </span>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-row">
+                            <span class="discount-badge">
+                                ۱۰٪
+                            </span>
+                            <span class="current-price">
+                                ۸۵,۹۹۹,۰۰۰
+                                <span class="toman-icon">
+                                    <img src="./images/icon/svgexport-15.svg" alt="">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="old-price">
+                            ۹۵,۹۹۹,۰۰۰
+                        </div>
+                    </div>
+                    <div class="stock-status">
+                        تنها ۳ عدد باقی مانده
+                    </div>
+                    <div class="product-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:68%"></div>
+                        </div>
+                        <div class="timer-small">
+                            ۶۸٪ فروش رفته
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="discount-banner">
+                        <img src="./images/incredible.svg" alt="">
+                    </div>
+                    <div class="product-image">
+                        <img src="./images/incredible page/s2.jpg" alt="">
+                    </div>
+                    <div class="product-title">
+                        گوشی موبایل سامسونگ گلکسی S25 Ultra
+                    </div>
+                    <div class="seller-info">
+                        <span>دیجی‌کالا</span>
+                    </div>
+                    <div class="product-box-info">
+                        <span class="rate">
+                            ★ 4.8
+                        </span>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-row">
+                            <span class="discount-badge">
+                                ۱۰٪
+                            </span>
+                            <span class="current-price">
+                                ۸۵,۹۹۹,۰۰۰
+                                <span class="toman-icon">
+                                    <img src="./images/icon/svgexport-15.svg" alt="">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="old-price">
+                            ۹۵,۹۹۹,۰۰۰
+                        </div>
+                    </div>
+                    <div class="stock-status">
+                        تنها ۳ عدد باقی مانده
+                    </div>
+                    <div class="product-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:68%"></div>
+                        </div>
+                        <div class="timer-small">
+                            ۶۸٪ فروش رفته
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="discount-banner">
+                        <img src="./images/incredible.svg" alt="">
+                    </div>
+                    <div class="product-image">
+                        <img src="./images/incredible page/s3.jpg" alt="">
+                    </div>
+                    <div class="product-title">
+                        گوشی موبایل سامسونگ گلکسی S25 Ultra
+                    </div>
+                    <div class="seller-info">
+                        <span>دیجی‌کالا</span>
+                    </div>
+                    <div class="product-box-info">
+                        <span class="rate">
+                            ★ 4.8
+                        </span>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-row">
+                            <span class="discount-badge">
+                                ۱۰٪
+                            </span>
+                            <span class="current-price">
+                                ۸۵,۹۹۹,۰۰۰
+                                <span class="toman-icon">
+                                    <img src="./images/icon/svgexport-15.svg" alt="">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="old-price">
+                            ۹۵,۹۹۹,۰۰۰
+                        </div>
+                    </div>
+                    <div class="stock-status">
+                        تنها ۳ عدد باقی مانده
+                    </div>
+                    <div class="product-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:68%"></div>
+                        </div>
+                        <div class="timer-small">
+                            ۶۸٪ فروش رفته
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="discount-banner">
+                        <img src="./images/incredible.svg" alt="">
+                    </div>
+                    <div class="product-image">
+                        <img src="./images/incredible page/rn1.png" alt="">
+                    </div>
+                    <div class="product-title">
+                        گوشی موبایل سامسونگ گلکسی S25 Ultra
+                    </div>
+                    <div class="seller-info">
+                        <span>دیجی‌کالا</span>
+                    </div>
+                    <div class="product-box-info">
+                        <span class="rate">
+                            ★ 4.8
+                        </span>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-row">
+                            <span class="discount-badge">
+                                ۱۰٪
+                            </span>
+                            <span class="current-price">
+                                ۸۵,۹۹۹,۰۰۰
+                                <span class="toman-icon">
+                                    <img src="./images/icon/svgexport-15.svg" alt="">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="old-price">
+                            ۹۵,۹۹۹,۰۰۰
+                        </div>
+                    </div>
+                    <div class="stock-status">
+                        تنها ۳ عدد باقی مانده
+                    </div>
+                    <div class="product-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:68%"></div>
+                        </div>
+                        <div class="timer-small">
+                            ۶۸٪ فروش رفته
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="discount-banner">
+                        <img src="./images/incredible.svg" alt="">
+                    </div>
+                    <div class="product-image">
+                        <img src="./images/incredible page/rn4.webp" alt="">
+                    </div>
+                    <div class="product-title">
+                        گوشی موبایل سامسونگ گلکسی S25 Ultra
+                    </div>
+                    <div class="seller-info">
+                        <span>دیجی‌کالا</span>
+                    </div>
+                    <div class="product-box-info">
+                        <span class="rate">
+                            ★ 4.8
+                        </span>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-row">
+                            <span class="discount-badge">
+                                ۱۰٪
+                            </span>
+                            <span class="current-price">
+                                ۸۵,۹۹۹,۰۰۰
+                                <span class="toman-icon">
+                                    <img src="./images/icon/svgexport-15.svg" alt="">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="old-price">
+                            ۹۵,۹۹۹,۰۰۰
+                        </div>
+                    </div>
+                    <div class="stock-status">
+                        تنها ۳ عدد باقی مانده
+                    </div>
+                    <div class="product-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:68%"></div>
+                        </div>
+                        <div class="timer-small">
+                            ۶۸٪ فروش رفته
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="discount-banner">
+                        <img src="./images/incredible.svg" alt="">
+                    </div>
+                    <div class="product-image">
+                        <img src="./images/incredible page/rn5.webp" alt="">
+                    </div>
+                    <div class="product-title">
+                        گوشی موبایل سامسونگ گلکسی S25 Ultra
+                    </div>
+                    <div class="seller-info">
+                        <span>دیجی‌کالا</span>
+                    </div>
+                    <div class="product-box-info">
+                        <span class="rate">
+                            ★ 4.8
+                        </span>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-row">
+                            <span class="discount-badge">
+                                ۱۰٪
+                            </span>
+                            <span class="current-price">
+                                ۸۵,۹۹۹,۰۰۰
+                                <span class="toman-icon">
+                                    <img src="./images/icon/svgexport-15.svg" alt="">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="old-price">
+                            ۹۵,۹۹۹,۰۰۰
+                        </div>
+                    </div>
+                    <div class="stock-status">
+                        تنها ۳ عدد باقی مانده
+                    </div>
+                    <div class="product-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:68%"></div>
+                        </div>
+                        <div class="timer-small">
+                            ۶۸٪ فروش رفته
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="discount-banner">
+                        <img src="./images/incredible.svg" alt="">
+                    </div>
+                    <div class="product-image">
+                        <img src="./images/incredible page/rn16.webp" alt="">
+                    </div>
+                    <div class="product-title">
+                        گوشی موبایل سامسونگ گلکسی S25 Ultra
+                    </div>
+                    <div class="seller-info">
+                        <span>دیجی‌کالا</span>
+                    </div>
+                    <div class="product-box-info">
+                        <span class="rate">
+                            ★ 4.8
+                        </span>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-row">
+                            <span class="discount-badge">
+                                ۱۰٪
+                            </span>
+                            <span class="current-price">
+                                ۸۵,۹۹۹,۰۰۰
+                                <span class="toman-icon">
+                                    <img src="./images/icon/svgexport-15.svg" alt="">
+                                </span>
+                            </span>
+                        </div>
+                        <div class="old-price">
+                            ۹۵,۹۹۹,۰۰۰
+                        </div>
+                    </div>
+                    <div class="stock-status">
+                        تنها ۳ عدد باقی مانده
+                    </div>
+                    <div class="product-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:68%"></div>
+                        </div>
+                        <div class="timer-small">
+                            ۶۸٪ فروش رفته
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./images/header/logo.svg" alt="">
+          </div>
+          <button class="back-top">بازگشت به بالا ↑</button>
+        </div>
+        <div class="footer-contact">
+          <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</p>
+          <span>|</span>
+          <p> ۰۲۱-۹۱۰۰۰۱۰۰</p>
+          <span>|</span>
+          <p>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
+        </div>
+        <div class="footer-services">
+          <div class="service">
+            <img src="./images/footer/ft1.png" alt="">
+            <p>امکان تحویل اکسپرس</p>
+          </div>
+          <div class="service">
+            <img src="./images/footer/ft2.png" alt="">
+            <p>امکان پرداخت در محل</p>
+          </div>
+          <div class="service">
+            <img src="./images/footer/ft3.png" alt="">
+            <p>۷ روز هفته، ۲۴ ساعت</p>
+          </div>
+          <div class="service">
+            <img src="./images/footer/ft4.png" alt="">
+            <p>هفت روز ضمانت بازگشت کالا</p>
+          </div>
+          <div class="service">
+            <img src="./images/footer/ft5.png" alt="">
+            <p>ضمانت اصل بودن کالا</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>با دیجی کالا</h4>
+            <a href="">اتاق خبر دیجی کالا</a>
+            <a href="">فروش در دیجی کالا</a>
+            <a href="">فرصت‌های شغلی</a>
+            <a href="">گزارش تخلف در دیجی کالا</a>
+            <a href="">تماس با دیجی کالا</a>
+            <a href="">درباره دیجی کالا</a>
+          </div>
+          <div class="footer-column">
+            <h4>خدمات مشتریان</h4>
+            <a href="">پاسخ به پرسش‌های رایج</a>
+            <a href="">رویه بازگرداندن کالا</a>
+            <a href="">شرایط استفاده</a>
+            <a href="">حریم خصوصی</a>
+          </div>
+          <div class="footer-column">
+            <h4>راهنمای خرید</h4>
+            <a href="">نحوه ثبت سفارش</a>
+            <a href="">رویه ارسال سفارش</a>
+            <a href="">شیوه‌های پرداخت</a>
+          </div>
+          <div class="footer-social">
+            <div class="social-right">
+              <h4>همراه ما باشید!</h4>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="social-left">
+              <h4>با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</h4>
+              <div class="email-box">
+                <input type="text" placeholder="ایمیل شما">
+              <button class="register">ثبت</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-app-download">
+          <img src="./images/footer/footerlogo2.png" alt="">
+          <h4>دانلود اپلیکیشن دیجی کالا</h4>
+          <div class="app-stores">
+            <img src="./images/footer/coffe-bazzar.png" alt="بازار">
+            <img src="./images/footer/myket.png" alt="مایکت">
+            <img src="./images/footer/sib-app.png" alt="سیب‌اپ">
+            <img  class="more-image" src="./images/footer/more.svg" alt="">
+          </div>
+        </div>
+        <div class="about">
+          <div class="right-text">
+            <h3>دیجی کالا؛ بزرگترین فروشگاه اینترنتی ایران</h3>
+            <p>دیجی کالا سال‌ها است که به انتخاب اول بسیاری از خریداران اینترنتی تبدیل شده است. دیجی کالا به عنوان بزرگ‌ترین و معتبرترین فروشگاه آنلاین ایران، شناخته‌شده‌ترین فروشگاه نیز محسوب می‌شود. این فروشگاه آنلاین نه‌تنها گسترده‌ترین تنوع کالا را در دسته‌بندی‌های مختلف ارائه می‌دهد، بلکه با خدمات بی‌نظیر، ارسال سریع، ضمانت اصل بودن کالا و پشتیبانی حرفه‌ای، استاندارد جدیدی در خرید اینترنتی ایران تعریف کرده است. این فروشگاه با سال‌ها تجربه و اعتماد مشتریان، کامل‌ترین و بهترین گزینه برای خرید آنلاین در ایران محسوب می‌شود.</p>
+            <div class="more-text">
+              <h5>مشاهده بیشتر</h5>
+              <img src="./images/device/arrow.svg" alt="">
+            </div>
+          </div>
+          <div class="left-pic">
+            <div class="license">
+              <img src="./images/footer/kasbokar.png" alt="">
+            </div>
+            <div class="license"><img src="./images/footer/myket.png" alt="">
+            </div>
+            <div class="license">
+              <img src="./images/footer/sapra.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.
+        </div>
+        <div class="company">
+          <div class="company-pic">
+            <img src="./images/footer/com1.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com2.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com3.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com4.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com5.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com6.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com7.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com8.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com9.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com10.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com11.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com12.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com13.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com14.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com15.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com16.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com17.svg" alt="">
+          </div>
+          <div class="company-pic">
+            <img src="./images/footer/com18.svg" alt="">
+          </div>
+        </div>
+    </footer>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".category", {
+          slidesPerView: 10.5,
+          spaceBetween: 1,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".ending-carousel", {
+          slidesPerView: 7,
+          spaceBetween: 1,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+  </body>
+</html>

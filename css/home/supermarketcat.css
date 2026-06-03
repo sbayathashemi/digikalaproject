@@ -1,0 +1,95 @@
+.supermarket-category{
+    width: 1330px;
+    height: 110px;
+    margin: 20px auto;
+    background-color: #eceeee;
+    border-radius: 16px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.supermarket-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.basket{
+    width: 66px;
+    height: 62px;
+}
+
+.offer-title{
+    width: 250px;
+}
+
+.percent-button{
+    width: 110px;
+    height: 28px;
+    background-color: #029a49;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percent-button p{
+    color: white;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: bold;
+}
+.supermarket-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product{
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img{
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+.supermarket-percent{
+    min-width: 34px;
+    height: 20px;
+    background-color: #d32f2f;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-products{
+    width: 145px;
+    height: 50px;
+    background-color: white;
+    border-radius: 999px;
+    color: #029a49;
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

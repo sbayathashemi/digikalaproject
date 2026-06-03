@@ -1,0 +1,91 @@
+.brands-category {
+    width: 100%;
+    height: 225px;
+    margin-bottom: 20px;
+    .brands-center {
+        max-width: 1330px;
+        height: 100%;
+        margin: 0 auto;
+        border-style: solid;
+        border-color: #d6d6d687;
+        border-radius: 19px;
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .brands-title {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+            
+            h2 {
+                font-family: var(--font-family);
+            }
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; 
+            
+            .myBrands-cover {
+                width: 100%;
+                height: 100%;
+                
+                .myBrands-cover-item {
+                    width: fit-content;
+                    margin: 0 auto;
+                    
+                    img {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 25px;
+                    }
+                    
+                    span {
+                        color: gray;
+                        width: 10px;
+                        height: 5px;
+                    }
+                    .image14{
+                        width: 80px;
+                        height: 70px;
+                        align-items: center;
+                    }
+                    .image19{
+                        width: fit-content;
+                    }
+                }
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                left: auto;
+                top: 80px;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 110px;
+                background-color: #d6d6d687;
+            }
+            
+            &:first-child::after {
+                display: none;
+            }
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

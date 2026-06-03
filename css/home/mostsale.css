@@ -1,0 +1,77 @@
+.most-sale{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.most-sale-center{
+    max-width: 1330px;
+    height: 404px;
+    margin: auto;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+}
+
+.most-sale-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.most-sale-title h2{
+    font-family: var(--font-family);
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.swiper-slide{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between ;
+    height: 100%;
+    /*row-gap: 20px;*/
+}
+.myMostsale-cover-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 110px;
+    position: relative;
+    flex-shrink: 0;
+}
+.myMostsale-cover-item::after{
+    content: "";
+    position: absolute;
+    margin-top: 60px;
+    right: 110px;
+    width: calc(100% - 100px);
+    height: 1px;
+    background-color: #f0f0f1;
+}
+
+.myMostsale-cover-item img{
+    width: 86px;
+    height: 86px;
+    object-fit: contain;
+    flex-shrink: 0;
+    padding: 5px;
+}
+
+.myMostsale-cover-item h1{
+    color: #19bfd3;
+    font-family: var(--font-family);
+    
+}
+
+.myMostsale-cover-item p{
+    font-family: var(--font-family);
+    font-size: 13px;
+    color: #3f4064;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 52px;
+}
